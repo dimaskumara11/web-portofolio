@@ -1,0 +1,49 @@
+:root
+{
+  --black: #444;
+  --grey: #eae8d7;
+  --background-body-color: rgba(210, 227, 221, 0.63);
+  --green-tosca: #8fe3a7;
+}
+
+.App {
+  overflow: hidden;
+  padding: 1.5rem 5rem;
+  color: var(--green-tosca);
+}
+
+.dms-link-prev-page {
+  font-size: 20px;
+}
+.dms-link-prev-page>a{
+  text-decoration: none;
+  color: var(--black);
+}
+.dms-link-prev-page>a:hover {
+  color: var(--green-tosca);
+}
+
+.dms-link-next-page {
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+}
+.dms-link-next-page>a{
+  text-decoration: none;
+  color: var(--black);
+}
+.dms-link-next-page>a:hover {
+  color: var(--green-tosca);
+}
+
+.dms-portofolio-header-title-text>label{
+  color: var(--black);
+  font-size: 36px;
+  font-weight: bold;
+}
+.dms-portofolio-header-title-text>label>span{
+  border-bottom: 4px solid var(--green-tosca);
+}

@@ -1,0 +1,30 @@
+.dms-portofolio-work-experience {
+    height: 100vh;
+    color: var(--black);
+}
+.dms-portofolio-work-experience-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.dms-portofolio-work-experience-grid .dms-portofolio-work-experience-content {
+    padding: 10px
+}
+
+.dms-portofolio-work-experience-list {
+    list-style-type: none;
+    margin-left: -30px;
+}
+.dms-portofolio-work-experience-list ul {
+    list-style-type: none;
+    margin-top: -7px;
+}
+.dms-portofolio-work-experience-list .img-check {
+    width: 15px;
+}
+.dms-portofolio-work-experience-list .company {
+    font-weight: bold;
+}
+.dms-portofolio-work-experience-list .skills {
+    font-weight: bold;
+    margin-top: 3px;
+}

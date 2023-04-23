@@ -1,0 +1,44 @@
+.dms-navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.dms-navbar-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.dms-navbar-center {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.dms-navbar-center nav {
+    flex: 2;
+}
+
+.dms-navbar-center nav>ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.dms-navbar-center nav>ul>li>a {
+    color: var(--green-tosca);
+    text-decoration: none;
+}
+
+.dms-navbar-center nav>ul>li>a:hover{
+    color: var(--lightgrey);
+}
+
+.dms-navbar-right {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}

@@ -1,0 +1,43 @@
+.dms-portofolio-about-me {
+    height: 100vh;
+}
+.dms-portofolio-about-me-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.dms-portofolio-about-me-grid .dms-portofolio-about-me-content {
+    padding: 10px
+}
+.dms-portofolio-about-me-content h1 {
+    font-size: 32px;
+    color: var(--black);
+}
+.dms-portofolio-about-me-content .img-photo-profile {
+    width: 260px;
+    margin-top: 38px;
+    border-radius: 5px;
+}
+.dms-portofolio-about-me-content .dms-list {
+    margin-top: 38px;
+    margin-left: -42px;
+}
+.dms-portofolio-about-me-content .dms-list li {
+    margin: 20px 0px;
+}
+.dms-portofolio-about-me-content .dms-list li img{
+    width: 25px;
+}
+.dms-portofolio-about-me-content .dms-list li .img-check{
+    width: 18px;
+}
+.dms-portofolio-about-me-content .dms-list li .img-star{
+    width: 20px;
+    margin-left: 5px;
+}
+.dms-portofolio-about-me-content .dms-list li span{
+    vertical-align: top;
+    margin-left: 23px;
+    color: var(--black);
+    font-weight: 500;
+    font-size: 20px
+}
