@@ -1,0 +1,65 @@
+.dms-portofolio-my-project {
+    height: 100vh;
+    color: var(--black);
+}
+.dms-portofolio-my-project-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content {
+    padding: 15px
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4.5px 0px rgba(0, 0, 0, 0.25);
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .thumbnail {
+    width:100%;
+    max-height: 250px;
+    border-radius: 10px;
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .created_at {
+    text-align: center;
+    line-height: 0px;
+    font-style: italic;
+    font-size: 14px
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .project_name {
+    text-align: left;
+    line-height: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .description {
+    text-align: justify;
+    font-size: 14px
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .link {
+    text-align: right;
+    font-weight: bold;
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .link a {
+    text-decoration: none;
+    color: var(--black)
+}
+.dms-portofolio-my-project-grid .dms-portofolio-my-project-content .card .link a:hover {
+    color: var(--green-tosca);
+}
+.dms-portofolio-my-project-footer {
+    height: 10vh;
+    background-color: var(--black);
+    padding-top: 2.5vh;
+    color: #FFFFFF
+}
+.dms-portofolio-my-project-more {
+    text-align: center;
+    font-weight: bold;
+}
+.dms-portofolio-my-project-more a {
+    text-decoration: none;
+    color: var(--black)
+}
+.dms-portofolio-my-project-more a:hover {
+    color: var(--green-tosca);
+}

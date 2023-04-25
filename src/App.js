@@ -1,9 +1,9 @@
 import './App.css';
 import Home from './pages/home/Home';
-import ContactUs from './pages/contact-us/ContactUs';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutMe from './pages/about-me/AboutMe';
 import WorkExperience from './pages/work-experience/WorkExperience';
+import MyProject from './pages/my-project/MyProject';
 
 function App() {
   return (
@@ -13,9 +13,12 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='about-me' element={<AboutMe/>}/>
             <Route path='work-experience' element={<WorkExperience/>}/>
-            <Route path='contact-us' element={<ContactUs/>}/>
+            <Route path='my-project' element={<MyProject/>}/>
           </Routes>
       </div>
+      {/* <div className='dms-portofolio-my-project-footer'>
+          <p align="center">Created By : Dimas Kumara</p>
+      </div> */}
     </BrowserRouter>
   );
 }
